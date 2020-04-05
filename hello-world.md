@@ -52,7 +52,7 @@ There's a new one here - `setFromString`. This is used to set text-like values (
 
 Type `Hello world` in the `New value` input and press `enter`. A special thing about this way of writing strings is that you never need to use escapes. Any text you enter will be automatically escaped in the final program.
 
-Now we have our argument, but we still need to say what function we're calling (`console.log`). Focus the `expression` child of the `call` node (it's probably blue). Take a look at the "Possible actions" list. We have both `setFromString` and `setVariant`. We actually have to use `setVariant`, since we can't write `console.log` with `setFromString`. The reason why will became clear in a bit. Use `setVariant` and choose a `PropertyAccessExpression` (`v`, `space`, search, `enter`). You should have this now:
+Now we have our argument, but we still need to say what function we're calling (`console.log`). Focus the `expression` child of the `call` node (it's probably blue). Take a look at the "Possible actions" list. We have both `setFromString` and `setVariant`. We have to use `setVariant`, since we can't write `console.log` with `setFromString`, because `console` and `log` are separate things in the syntax tree. Use `setVariant` and choose a `PropertyAccessExpression` (`v`, `space`, search, `enter`). You should have this now:
 
 <img src="./images/hello-world/11-default-property-access.png" alt="Newly created PropertyAccess node" width="618">
 
