@@ -1,5 +1,7 @@
 # Hello world
 
+**There's also a [video version](https://www.youtube.com/watch?v=9OcT_a8V1nc) of this tutorial.**
+
 This tutorial will show you the basics of Forest. We're going to write the following obligatory program:
 
 ```typescript
